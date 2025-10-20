@@ -8,3 +8,9 @@ def suma(valor1, valor2):
     return resultado
 
 print(f'El resultado es el siguiente {suma(1,2)}')
+
+def resta(valor1, valor2):
+    resultado = valor1 - valor2
+    return resultado
+
+print(f'El resultado es el siguiente {resta(1,2)}')
