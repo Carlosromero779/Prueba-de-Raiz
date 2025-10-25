@@ -9,6 +9,12 @@ def suma(valor1, valor2):
 
 print(f'El resultado es el siguiente {suma(1,2)}')
 
+def creditos():
+    solicitud_credito = True
+    if solicitud_credito:
+        print('Credito aprobado')
+    else:
+        print('Credito denegado')
 def resta(valor1, valor2):
     resultado = valor1 - valor2
     return resultado
