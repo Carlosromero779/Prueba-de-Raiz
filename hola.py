@@ -1,7 +1,7 @@
-def saludar(mensaje):
+def nombre_vercambio(mensaje):
     print(mensaje)
     
-saludar('Hola como te va ricardo')
+nombre_vercambio('Hola como te va ricardo')
 
 def suma(valor1, valor2):
     resultado = valor1 + valor2
